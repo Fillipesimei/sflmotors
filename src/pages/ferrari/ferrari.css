@@ -1,0 +1,79 @@
+.container-ferrari {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    border-radius: 8px;
+    
+   
+  }
+  
+  .form {
+    position: absolute;
+    top:450px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 10;
+  }
+  
+  h2 {
+    color: #c00;
+    margin-bottom: 10px;
+  }
+  
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .detail {
+    flex: 1 1 calc(50% - 10px);
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .vehicle-items {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .vehicle-items li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .slider .slick-slider {
+    margin-bottom: 20px;
+    width: 900px;
+    border-radius: 10px;
+ 
+  }
+  
+ .slick-slide img {
+    width: 100%; /* Imagens ocupam toda a largura do slide */
+    max-height: 500px; /* Altura máxima das imagens */
+    object-fit: cover; /* Mantém proporções das imagens */
+    border-radius: 10px;
+  }
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }

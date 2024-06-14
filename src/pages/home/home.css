@@ -1,0 +1,71 @@
+.pesquisa {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.pesquisa form {
+    width: 100%;
+    gap: 10px;
+}
+
+.input {
+    width: 600px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: white;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 235, 235);
+    
+
+}
+.principal {
+    height: 100vh;
+    background-color: rgb(238, 235, 235);
+
+}
+
+.btn-submit {
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 7px;
+    width: 200px;
+    background-color: #1673A8;
+    color: white;
+    font-size: 17px;
+    border-color: #1673A8;
+}
+
+.lojas-oficiais {
+    background-color: rgb(238, 235, 235);
+    width: 50%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.imagens {
+    background-color: rgb(238, 235, 235);
+    max-width: 80%; /* Ajuste conforme necessário */
+    display: flex;
+    flex-wrap: wrap; /* Permite a quebra de linha */
+    height: auto;
+    align-items: center;
+    padding-left: 20px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
